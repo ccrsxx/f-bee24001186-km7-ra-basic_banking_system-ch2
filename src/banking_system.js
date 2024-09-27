@@ -59,6 +59,7 @@ export async function showMenu() {
 
         const inputNumber = await number({
           message: 'Enter amount to deposit',
+          required: true,
           validate: (value) => {
             const isNotValid = typeof value === 'number' && value <= 0;
 
@@ -86,6 +87,7 @@ export async function showMenu() {
 
         const inputNumber = await number({
           message: 'Enter amount to withdraw',
+          required: true,
           validate: (value) => {
             const isNotValid = typeof value === 'number' && value <= 0;
 
