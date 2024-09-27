@@ -8,6 +8,10 @@
 - Gradient String
 - Nanospinner
 
+## Flowchart
+
+![Flowchart](/.github/assets/flowchart.png)
+
 ## Production
 
 You can run the cli right away by using npx.
