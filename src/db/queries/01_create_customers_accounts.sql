@@ -1,3 +1,4 @@
+-- Seed the customers and accounts tables with some data
 DO $$
 BEGIN
     IF EXISTS (SELECT 1 FROM customers) THEN
